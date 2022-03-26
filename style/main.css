@@ -1,0 +1,181 @@
+@font-face {
+    font-family: TTcomm;
+    src: url(../img/TT\ Commons\ Regular.otf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: TTcomm !important;
+}
+
+nav {
+    position: fixed !important;
+    z-index: 1111;
+    width: 100% !important;
+}
+
+.dropdown-menu>li:hover {
+    background-color: rgba(255, 255, 255, 0.788) !important;
+    color: black !important;
+}
+
+.nav-link {
+    font-size: 1.1rem !important;
+    font-weight: 600;
+}
+
+.nav-src-bar {
+    height: 18px !important;
+    width: 18px !important;
+    margin-top: 10px
+}
+
+.btn-frf {
+    font-size: 1em !important;
+    font-weight: 700 !important;
+    letter-spacing: .5px !important;
+}
+
+.top-dem {
+    height: 130px !important;
+    background-color: black;
+}
+
+.first-block .main {
+    position: relative !important;
+}
+
+.main .inner-container {
+    position: absolute !important;
+    left: 0;
+    right: 0;
+    top: 10em;
+    bottom: 0;
+    margin: auto;
+}
+
+.header-b1 {
+    font-weight: 600 !important;
+    /* letter-spacing: 1rem !important; */
+}
+
+.btn-vp {
+    background-image: linear-gradient(to right, #F05A28, #EC008C, #F05A28);
+    background-size: 300% 100%;
+    transition: all .6s ease-in-out;
+
+}
+
+.btn-tff,
+.btn-vp {
+    font-size: 15px !important;
+    letter-spacing: 0.5px !important;
+    padding: 1em 1em !important;
+    min-width: 150px;
+}
+
+/* block 1 */
+.block-2 {
+    background-color: black;
+}
+
+/* line */
+.line-container {
+    background-color: #000;
+}
+
+.line {
+    margin: 0px auto;
+    width: 0%;
+    height: 150px;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #EC008C, #F15B2A, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+/* block 4 */
+.block-4 {
+    /* background-image: url(/content/dam/pluralsight2/homepage/2022/bkgd-triangle-right.png),
+        url(/content/dam/pluralsight2/homepage/2022/bkgd-triangle-right2.png),
+        url(/content/dam/pluralsight2/homepage/2022/bkgd-triangle-left.png) !important;
+    background-repeat: no-repeat,
+        no-repeat,
+        no-repeat;
+    background-position: bottom right,
+        right,
+        left;
+    background-size: contain; */
+    background-color: #000;
+}
+
+.container-block-4 {
+    margin: 0 auto;
+    width: 65%;
+}
+
+.container-block-4 .p1,
+.container-block-4 .card-header {
+    color: #E40084 !important;
+}
+
+/* media query */
+@media screen and (max-width:1300px) {
+    .main .inner-container {
+        position: absolute !important;
+        left: 0;
+        right: 0;
+        top: 6em;
+        bottom: 0;
+        margin: auto;
+    }
+}
+
+.container-block-4 .card,
+.card-header {
+    position: relative;
+    background-color: #212529 !important;
+}
+
+.block-img-card {
+    position: absolute;
+    top: -1rem;
+    right: -1rem;
+    height: auto;
+    width: 8rem;
+
+}
+
+
+
+
+@media screen and (max-width:860px) {
+    .main .inner-container {
+        position: absolute !important;
+        left: 0;
+        right: 0;
+        top: 5em;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .block-2 p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .main .inner-container {
+        position: absolute !important;
+        left: 0;
+        right: 0;
+        top: .3em;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .block-2 p {
+        font-size: 13px;
+    }
+}
