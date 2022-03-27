@@ -37,6 +37,16 @@ nav {
     font-weight: 700 !important;
     letter-spacing: .5px !important;
 }
+.btn-tff:hover,
+.btn-frf:hover {
+    background-color: rgba(0, 0, 0, 0.411) !important;
+    color: rgba(201, 201, 201, 0.548) !important;
+}
+.btn-vp:hover{
+    background-image: linear-gradient(to right, #f05a28a8, #ec008ea6, #F05A28);
+    background-size: 300% 100%;
+    transition: all .6s ease-in-out !important;
+}
 
 .top-dem {
     height: 130px !important;
@@ -125,13 +135,23 @@ nav {
 }
 /* block 5 */
 .block-5{
-    background-color: #000 !important;
+    background-color: #181818 !important;
+}
+.block-5 .card{
+    background-color: #222 !important;
 }
 .text-block-p2{
     color: #eee !important;
 }
 
-
+/* block-6 */
+.block-6{
+    background-color: #181818 !important;
+}
+.block-6 .card{
+    background-color: #222 !important;
+    
+}
 
 /* media query */
 @media screen and (max-width:1300px) {
