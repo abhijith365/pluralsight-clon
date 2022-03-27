@@ -153,6 +153,14 @@ nav {
     
 }
 
+/* block-7 */
+.block-7{
+    background-color: #000 !important;
+    color: #fff !important;
+}
+.block-7 .card{
+    background-color: #000 !important;
+}
 /* media query */
 @media screen and (max-width:1300px) {
     .main .inner-container {
