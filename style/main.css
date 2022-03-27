@@ -116,9 +116,22 @@ nav {
 }
 
 .container-block-4 .p1,
-.container-block-4 .card-header {
+.container-block-4 .card-header,
+.p1,
+.left-arrow {
     color: #E40084 !important;
+    font-weight: 600 !important;
+    letter-spacing: .1em;
 }
+/* block 5 */
+.block-5{
+    background-color: #000 !important;
+}
+.text-block-p2{
+    color: #eee !important;
+}
+
+
 
 /* media query */
 @media screen and (max-width:1300px) {
@@ -147,7 +160,10 @@ nav {
 
 }
 
-
+/* block 5 */
+.img-skills-5 {
+    max-height: 30px !important;
+}
 
 
 @media screen and (max-width:860px) {
