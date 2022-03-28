@@ -37,12 +37,14 @@ nav {
     font-weight: 700 !important;
     letter-spacing: .5px !important;
 }
+
 .btn-tff:hover,
 .btn-frf:hover {
     background-color: rgba(0, 0, 0, 0.411) !important;
     color: rgba(201, 201, 201, 0.548) !important;
 }
-.btn-vp:hover{
+
+.btn-vp:hover {
     background-image: linear-gradient(to right, #f05a28a8, #ec008ea6, #F05A28);
     background-size: 300% 100%;
     transition: all .6s ease-in-out !important;
@@ -134,44 +136,82 @@ nav {
     letter-spacing: .1em;
 }
 /* block 5 */
-.block-5{
+.img-skills-5 {
+    max-height: 30px !important;
+}
+
+.block-5 {
     background-color: #181818 !important;
 }
-.block-5 .card{
+
+.block-5 .card {
     background-color: #222 !important;
 }
-.text-block-p2{
+
+.text-block-p2 {
     color: #eee !important;
 }
 
 /* block-6 */
-.block-6{
+.block-6 {
     background-color: #181818 !important;
 }
-.block-6 .card{
+
+.block-6 .card {
     background-color: #222 !important;
-    
+
 }
 
 /* block-7 */
-.block-7{
+.block-7 {
     background-color: #000 !important;
     color: #fff !important;
 }
-.block-7 .card{
+
+.block-7 .card {
     background-color: #000 !important;
 }
-/* media query */
-@media screen and (max-width:1300px) {
-    .main .inner-container {
-        position: absolute !important;
-        left: 0;
-        right: 0;
-        top: 6em;
-        bottom: 0;
-        margin: auto;
-    }
+
+/* block 8 */
+.block-8 .card {
+    width: 100% !important;
+    border: 0 !important;
 }
+
+.block-8 .card .col-lg-7 p {
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.b-8-img1 {
+    position: relative;
+    color: rgba(0, 0, 0, 0.911) !important;
+
+}
+
+.b-8-img1 p {
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.block8-left-img {
+    height: 100% !important;
+    background-size: cover !important;
+}
+
+.b-8-img1 .left-text-8 {
+    position: absolute;
+    left: 1em;
+    top: 1em;
+    color: #fff !important;
+
+}
+
+.block8-right-img {
+    max-width: 28em !important;
+
+}
+
+
+
 
 .container-block-4 .card,
 .card-header {
@@ -188,11 +228,27 @@ nav {
 
 }
 
-/* block 5 */
-.img-skills-5 {
-    max-height: 30px !important;
-}
 
+/* media query */
+@media screen and (max-width:1300px) {
+    .main .inner-container {
+        position: absolute !important;
+        left: 0;
+        right: 0;
+        top: 6em;
+        bottom: 0;
+        margin: auto;
+    }
+
+   
+
+}
+@media screen and (max-width:1260px){
+    .block8-right-img {
+        max-width: 22em !important;
+
+    }
+}
 
 @media screen and (max-width:860px) {
     .main .inner-container {
@@ -222,4 +278,11 @@ nav {
     .block-2 p {
         font-size: 13px;
     }
+    .col-lg-5 .block-8-right {
+        margin: 0px 1em !important;
+    }
+   .block8-right-img {
+       max-width: 20em !important;
+
+   }
 }
