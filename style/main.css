@@ -9,6 +9,10 @@
     padding: 0;
     font-family: TTcomm !important;
 }
+a{
+    text-decoration: none !important;
+    color: white !important;
+}
 
 nav {
     position: fixed !important;
@@ -135,6 +139,7 @@ nav {
     font-weight: 600 !important;
     letter-spacing: .1em;
 }
+
 /* block 5 */
 .img-skills-5 {
     max-height: 30px !important;
@@ -210,9 +215,6 @@ nav {
 
 }
 
-
-
-
 .container-block-4 .card,
 .card-header {
     position: relative;
@@ -225,8 +227,31 @@ nav {
     right: -1rem;
     height: auto;
     width: 8rem;
-
 }
+
+/* block 9 */
+.block-9 {
+    background-color: #000 !important;
+    overflow: hidden !important;
+}
+
+.block-9 .card {
+    position: relative !important;
+}
+
+.block-9 .img-overlay {
+    position: absolute !important;
+    top: 1.4em !important;
+    overflow: hidden !important;
+}
+
+.block-9 .card-img {
+    background-size: contain !important;
+}
+
+
+
+
 
 
 /* media query */
@@ -240,14 +265,24 @@ nav {
         margin: auto;
     }
 
-   
 
 }
-@media screen and (max-width:1260px){
+
+@media screen and (max-width:1260px) {
     .block8-right-img {
         max-width: 22em !important;
 
     }
+
+    .block-9 .img-overlay {
+        position: absolute !important;
+        top: -2em !important;
+    }
+
+    .block-9 .img-overlay img {
+        max-width: 10em;
+    }
+
 }
 
 @media screen and (max-width:860px) {
@@ -263,6 +298,29 @@ nav {
     .block-2 p {
         font-size: 16px;
     }
+
+    .block-9 .img-overlay img {
+        max-width: 10em;
+    }
+
+    .block-9 .img-overlay .b9-p2 {
+        font-size: 13px !important;
+    }
+
+    .block-9 .col-lg-6 .btn-tff {
+        padding: .2rem 1rem !important;
+        margin-top: 0 !important;
+    }
+
+    .block-9 .img-overlay p {
+        padding: 0 !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .block-9 .img-overlay {
+        text-align: center;
+    }
+
 }
 
 @media screen and (max-width:576px) {
@@ -278,11 +336,27 @@ nav {
     .block-2 p {
         font-size: 13px;
     }
+
     .col-lg-5 .block-8-right {
         margin: 0px 1em !important;
     }
-   .block8-right-img {
-       max-width: 20em !important;
 
-   }
+    .block8-right-img {
+        max-width: 20em !important;
+
+    }
+
+    .block-9 .img-overlay img {
+        max-width: 6em;
+    }
+
+    .block-9 .img-overlay p {
+        padding: 0 !important;
+        margin-bottom: .3rem !important;
+    }
+
+    .block-9 .col-lg-6 .btn-tff {
+        padding: 0rem 1rem !important;
+    }
+
 }
